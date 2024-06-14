@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('../img/BACKGROUND.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  width: 100%;
+  padding: 15px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 350px;
+  margin-top: 13px;
+  transition: 0.2s;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  transition: 0.3s;
+  margin-top: 17px;
+}
+
+.navbar i {
+  font-size: 45px;
+}
+
+.navbar a {
+  color: antiquewhite;
+}
+
+
+.header-design-1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 5%;
+}
+.header-design-1 .search-container input[type="text"]{
+ width: 100%;
+ padding: 10px;
+ border: 3px solid #ccc;
+ border-radius: 10px;
+ outline: none;
+}
+.header-design-1 .logo{
+  width: 60px;
+}
+.header-design-2 {
+  background-color: rgba(255, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 5%;
+}
+.header-design-2 .navbar{
+  display: flex;
+  gap: 80px;
+  margin-top: 30px;
+}
+.header-design-2 .logo{
+  width: 50px;
+  height: 80px;
+  margin: 0 auto;
+}
+.header-design-3 {
+  background-color: rgba(0, 255, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%
+}
+.header-design-3 .search-container{
+  display: flex;
+  align-items: center;
+}
+.header-design-3 .search-container nav{
+  margin-right: 10px;
+}
+.header-design-3 .navbar{
+  display: flex;
+  gap: 10px;
+}
+.header-design-3 .logo{
+  width: 55px;
+  height: 50px;
+  margin: 10px;
+}
+.header-design-3 .search-container input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+ }
+ .header-design-3 .search-container input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+ }
+.header-design-3 button{
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+.header-design-4 {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+.header-design-4 .search-container nav{
+  margin-right: 10px;
+}
+.header-design-4 .logo{
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+.header-design-4 .search-container{
+  display: flex;
+  align-items: center;
+  width: 700px;
+}
+.header-design-4 .search-container input[type="text"]{
+  width: 200px;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+ }
+ .header-design-4 .search-container input[type="password"]{
+  width: 200px;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+ }.header-design-4 button{
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+.header-design-4 .center-searchbar {
+  display: flex;
+  align-items: center;
+  width: 700px;
+}
+.header-design-4 .center-searchbar nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.header-design-4 .center-searchbar input[type="text"]{
+  flex-grow: 1;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  width: 500px;
+}
+.header-design-4 .center-searchbar button {
+  border-radius: 3px;
+  padding: 6px 12px;
+  margin: 10px;
+}
+
+.header-design-5 {
+  background-color: rgba(94, 94, 2, 0.5);
+}
+.header-design-5 .logo{
+  width: 120px;
+  height: 70px;
+  margin: 10px;
+}
+.header-design-6 {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 5%;
+}
+.header-design-6 .search-container input[type="text"]{
+ width: 100%;
+ padding: 10px;
+ border: 3px solid #ccc;
+ border-radius: 10px;
+ outline: none;
+}
+.header-design-6 .logo{
+  width: 60px;
+  transition: transform 0.1s ease;
+}
+.header-design-6 .navbar a {
+  margin-left: 20px;
+  transition: transform 0.3s ease;
+}
+
+.header-design-6 .logo:hover {
+  transform: scale(2);
+}
+.header-design-6 .navbar a:hover {
+  transform: scale(1.1);
+}
+.header-design-7 {
+  background-color: rgba(255, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 5%;
+}
+.header-design-7 .navbar{
+  display: flex;
+  gap: 80px;
+  margin-top: 30px;
+}
+.header-design-7 .logo{
+  width: 50px;
+  height: 80px;
+  margin: 0 auto;
+  transition: transform 0.1s ease;
+}
+.header-design-7 .navbar a{
+  transition: transform 0.3s ease;
+}
+.header-design-7 .logo:hover{
+  transform: scale(2) rotateY(180deg);
+  filter: drop-shadow(0 0 15px rgb(0, 0, 0));
+}
+.header-design-7 .navbar a:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+}
+.header-design-8 {
+  background-color: rgba(0, 255, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%
+}
+.header-design-8 .search-container{
+  display: flex;
+  align-items: center;
+}
+.header-design-8 .search-container nav{
+  margin-right: 10px;
+}
+.header-design-8 .navbar{
+  display: flex;
+  gap: 10px;
+}
+.header-design-8 .logo{
+  width: 55px;
+  height: 50px;
+  margin: 10px;
+}
+.header-design-8 .search-container input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+ }
+ .header-design-8 .search-container input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+ }
+.header-design-8 button{
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+.header-design-8 .logo:hover{
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
+.header-design-8 .navbar a:hover{
+  color: blueviolet;
+}
+.header-design-8 .search-container input[type="text"]:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.header-design-8 .search-container input[type="password"]:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-design-8 .search-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+.header-design-8 .search-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.header-design-9 {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.header-design-9 .search-container nav {
+  margin-right: 10px;
+}
+.header-design-9 .navbar a {
+  transition: color 0.3s ease;
+}
+
+.header-design-9 .navbar a:hover {
+  color: #00ff62;
+}
+.header-design-9 .logo {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.header-design-9 .logo:hover {
+  transform: rotate(360deg);
+}
+.header-design-9 .search-container {
+  display: flex;
+  align-items: center;
+  width: 700px;
+}
+
+.header-design-9 .search-container input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+.header-design-9 .search-container input[type="password"] {
+  width: 200px;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+
+.header-design-9 .search-container input[type="text"]:hover {
+  transform: scale(1.1);}
+.header-design-9 .search-container input[type="password"]:hover {
+  transform: scale(1.1);
+}
+.header-design-9 button {
+  border-radius: 3px;
+  padding: 6px 12px;
+  transition: transform 0.3s ease;
+}
+
+.header-design-9 button:hover {
+  transform: translateY(-5px);
+}
+
+.header-design-9 .center-searchbar {
+  display: flex;
+  align-items: center;
+  width: 700px;
+}
+
+.header-design-9 .center-searchbar nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header-design-9 .center-searchbar input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  width: 500px;
+  transition: box-shadow 0.3s ease;
+}
+
+.header-design-9 .center-searchbar input[type="text"]:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-design-9 .center-searchbar button {
+  border-radius: 3px;
+  padding: 6px 12px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.header-design-9 .center-searchbar button:hover {
+  transform: rotate(360deg);
+}
+
+.header-design-10 {
+  background-color: rgba(94, 94, 2, 0.5);
+}
+.header-design-10 .logo{
+  width: 120px;
+  height: 70px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.header-design-10 .logo:hover {
+  transform: rotate(360deg);
+}
+.header-design-10 .navbar{
+  display: flex;
+  gap: 10px;
+  animation: navbarAnimation 1s ease infinite;
+}
+@keyframes navbarAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
