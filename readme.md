@@ -52,11 +52,15 @@
 Project demonstrate the coding of HTMl and CSS in different kinds of headers and footers in addition of animations. This is to have hands-on experience in coding and having an actual output.
 
 ### Key Components
-- Header Animation
+  - Header and Footer Animation
   - Hover Effect
   - Active Effect
-  - Multi Layer Domino Effect
-  - Not Effect
+  - Color change effect
+  - Matrix effect
+  - Scale effect
+  - Rotate effect
+  - Searchbars
+  - Cards
 
 
 ### Technology
@@ -101,4 +105,5 @@ WD-ProjectName
 
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Boxicon | To add icons for my href links | https://boxicons.com/ |
+| W3schools | To have a complete guide on how to use html and css | https://www.w3schools.com/html/, https://www.w3schools.com/css/

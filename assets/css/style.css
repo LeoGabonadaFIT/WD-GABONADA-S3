@@ -54,6 +54,7 @@ body{
 }
 .logo-container{
     margin-bottom: 20px;
+    color: white;
 }
 .card-container{
     display: flex;
@@ -75,7 +76,6 @@ body{
 .card:hover{
     transform: scale(1.2);
 }
-
 .card button {
     background-color: transparent;
     border: none;
@@ -89,7 +89,6 @@ body{
     border-radius: 80%;
     transition: 0.2s;
 }
-
 .card button:hover {
     transform: scale(1.5);
 }
